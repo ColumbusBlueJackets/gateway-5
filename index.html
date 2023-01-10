@@ -1,0 +1,35 @@
+<center><div class="wrapper">
+            <form class="form1" action="https://www.nhl.com/bluejackets/team/cbj-lady-jackets-2022-23" target="_blank" rel="noopener">
+                <div  style="font-size:4vw" class="formtitle">
+                    Enter the password to proceed:
+                </div>
+                <br>
+
+				
+              <div class="inputcontent">
+                        <input style="font-size:2vw"  type="password" id="password" /><br />
+              </div>
+                </div>
+			
+                <div class="buttons">
+                    <input  style="font-size:2vw" class="orangebutton" type="button" value="Login" onclick="checkPassword()" />
+              </div>
+            </form>
+						<img src="https://cms.nhl.bamgrid.com/images/photos/334723644/1000x1000/cut.png" alt="Primary Mark" width="200" height="200">
+
+	</div></center>
+
+       <script>
+      function checkPassword(){
+       if(document.getElementById('password').value == 'BlueJackets23'){
+        alert('Correct Password!'); 
+                   
+window.open('https://www.nhl.com/bluejackets/team/cbj-lady-jackets-2022-23', '_blank');
+       } else {
+         alert('Wrong Password!');
+          return false;
+        }
+       }
+      </script>
+
+<script src="https://s3.amazonaws.com/fed-nhl-microsites/prod/vendor/iframe-resizer/js/iframeResizer.contentWindow.min.js"></script>
